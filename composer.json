@@ -1,0 +1,27 @@
+{
+  "name": "dev-lancer/orm",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jakub Gniecki",
+      "email": "kubuspl@onet.eu"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DevLancer\\ORM\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DevLancer\\ORM\\Tests\\": "tests/"
+    }
+  }
+}
